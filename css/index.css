@@ -151,7 +151,7 @@ article {
   top: 3%;
   left: 96%;
   font-size: 30px;
-  transition: all 0.5s 1s;
+  transition: all 0.5s 0s;
   /* border: 1px solid #000; */
   z-index: 9999999;
   cursor: pointer;

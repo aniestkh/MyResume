@@ -82,8 +82,10 @@ $(window).on('scroll', function () {
           var pass = $('.art3 .passion').siblings('.run')
           if (i >= 95) {
             $('.art3 .board').addClass('on')
+            $('.art3 .crack').addClass('on')
           } else {
             $('.art3 .board').removeClass('on')
+            $('.art3 .crack').removeClass('on')
           }
         }
       }, 30)
@@ -117,10 +119,9 @@ $('.art5 .send').on('click', function () {
 
 $('.menubarcv').on('click', function () {
   $('.menubar').css({ opacity: '0' })
-  $(this).css({ zIndex: '9' })
+  $('.menubarcv').css({ zIndex: '9' })
   $('.ham.on .submenu').addClass('on')
   $('.ham.on .innermenubar').addClass('on')
-
 })
 
 $('body').on('click', '.innermenubar.on, article', function () {
@@ -148,4 +149,9 @@ $('.submenu a, #header .nav ul li').on('click', function(){
 
 $('.art3 .reload').on('click',function(){
   location.reload()
+})
+
+$('.crack').on('click', function(){
+  $(this).css({transform:'translateY(1800%)', transition:'all 1s 0.2s', zIndex:'0'})
+  $('.menubarcv').css({zIndex:'99999999'})
 })

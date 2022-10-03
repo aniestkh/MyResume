@@ -303,7 +303,7 @@ article {
   position: absolute;
   top: 10%;
   left: 9%;
-  font-size: 110px;
+  font-size: 90px;
   font-family: 'Titan One', cursive;
 }
 
@@ -460,7 +460,7 @@ article {
 
 .graph .mark {
   position: absolute;
-  top: 0;
+  top: 5%;
   left: 0;
   width: 9%;
   height: 100%;
@@ -511,19 +511,19 @@ article {
 }
 
 .skill.html {
-  background-color: orange;
+  background-color: YELLOW;
 }
 
 .skill.css {
-  background-color: rgb(178, 178, 216);
+  background-color: rgb(255, 200, 0);
 }
 
 .skill.js {
-  background-color: yellow;
+  background-color: rgb(255, 150, 0);;
 }
 
 .skill.jq {
-  background-color: darkblue;
+  background-color: rgb(255, 100, 0);;
 }
 
 .skill.passion {
